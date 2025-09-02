@@ -1,0 +1,23 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environments
+.venv/
+venv/
+ENV/
+.env
+
+# Streamlit cache
+.streamlit/
+
+# Replit artifacts
+*.mshield
+.replit
+uv.lock
+
+# OS junk
+.DS_Store
+Thumbs.db
