@@ -1,0 +1,278 @@
+{
+  "company_profile": {
+    "name": "TechFlow Solutions Ltd",
+    "industry": "Financial Technology",
+    "size": "Medium Enterprise",
+    "revenue": "$50M annually",
+    "employees": 250,
+    "locations": ["London", "New York", "Singapore"]
+  },
+  "risk_scenarios": [
+    {
+      "id": "RISK-001",
+      "title": "Cybersecurity Data Breach",
+      "category": "cybersecurity",
+      "severity": "High",
+      "probability": 0.3,
+      "impact_score": 9,
+      "description": "Potential unauthorized access to customer financial data through phishing attacks or system vulnerabilities. Recent increase in targeted attacks against fintech companies.",
+      "affected_systems": ["Customer Database", "Payment Processing", "API Gateway"],
+      "regulatory_implications": ["GDPR", "PCI DSS", "FCA Regulations"],
+      "financial_impact": {
+        "direct_costs": "$2-5M",
+        "regulatory_fines": "$1-10M",
+        "business_disruption": "$500K-2M"
+      },
+      "mitigation_strategies": [
+        "Implement multi-factor authentication",
+        "Regular security audits and penetration testing",
+        "Employee cybersecurity training programs",
+        "Incident response plan updates"
+      ]
+    },
+    {
+      "id": "RISK-002",
+      "title": "Regulatory Compliance Failure",
+      "category": "regulatory",
+      "severity": "High",
+      "probability": 0.25,
+      "impact_score": 8,
+      "description": "Failure to comply with evolving financial regulations across multiple jurisdictions, particularly new AI governance requirements and open banking standards.",
+      "affected_areas": ["Product Development", "Customer Onboarding", "Data Processing"],
+      "regulatory_bodies": ["FCA", "SEC", "MAS", "European Banking Authority"],
+      "financial_impact": {
+        "regulatory_fines": "$500K-5M",
+        "business_restrictions": "$1-3M",
+        "legal_costs": "$200K-800K"
+      },
+      "mitigation_strategies": [
+        "Establish regulatory compliance committee",
+        "Implement compliance management system",
+        "Regular legal and regulatory reviews",
+        "Engage with regulatory consultants"
+      ]
+    },
+    {
+      "id": "RISK-003",
+      "title": "Key Personnel Departure",
+      "category": "operational",
+      "severity": "Medium",
+      "probability": 0.4,
+      "impact_score": 6,
+      "description": "Risk of losing critical technical leaders and domain experts to competitors, particularly the CTO and lead blockchain developers.",
+      "affected_functions": ["Product Development", "Technical Architecture", "Team Leadership"],
+      "business_impact": [
+        "Project delays of 3-6 months",
+        "Loss of institutional knowledge",
+        "Increased recruitment costs",
+        "Potential client confidence issues"
+      ],
+      "financial_impact": {
+        "recruitment_costs": "$150K-300K",
+        "project_delays": "$500K-1.5M",
+        "knowledge_transfer": "$100K-200K"
+      },
+      "mitigation_strategies": [
+        "Implement retention bonus programs",
+        "Create comprehensive documentation processes",
+        "Cross-training initiatives",
+        "Succession planning for key roles"
+      ]
+    },
+    {
+      "id": "RISK-004",
+      "title": "Third-Party Vendor Failure",
+      "category": "operational",
+      "severity": "Medium",
+      "probability": 0.35,
+      "impact_score": 7,
+      "description": "Critical dependency on cloud infrastructure providers and payment processors. Service outages or security breaches at vendor level could severely impact operations.",
+      "key_vendors": [
+        "AWS (Infrastructure)",
+        "Stripe (Payment Processing)",
+        "Auth0 (Authentication)",
+        "SendGrid (Communications)"
+      ],
+      "business_impact": [
+        "Service unavailability",
+        "Customer transaction failures",
+        "SLA breaches with clients",
+        "Reputational damage"
+      ],
+      "financial_impact": {
+        "lost_revenue": "$100K-500K per day",
+        "sla_penalties": "$50K-200K",
+        "recovery_costs": "$25K-100K"
+      },
+      "mitigation_strategies": [
+        "Implement multi-vendor strategies",
+        "Regular vendor risk assessments",
+        "Disaster recovery testing",
+        "Service level agreement reviews"
+      ]
+    },
+    {
+      "id": "RISK-005",
+      "title": "Market Competition Intensification",
+      "category": "strategic",
+      "severity": "Medium",
+      "probability": 0.6,
+      "impact_score": 5,
+      "description": "Increasing competition from established banks launching fintech products and new AI-powered financial services startups entering the market.",
+      "competitive_threats": [
+        "Traditional banks with digital transformation",
+        "Big Tech companies entering fintech",
+        "AI-first financial service providers",
+        "Cryptocurrency and DeFi platforms"
+      ],
+      "business_impact": [
+        "Market share erosion",
+        "Pricing pressure",
+        "Customer acquisition cost increase",
+        "Innovation pace requirements"
+      ],
+      "financial_impact": {
+        "revenue_decline": "5-15% annually",
+        "increased_marketing": "$500K-1M",
+        "r_and_d_investment": "$1-2M additional"
+      },
+      "mitigation_strategies": [
+        "Accelerate product innovation cycles",
+        "Strategic partnerships and acquisitions",
+        "Customer loyalty programs",
+        "Differentiated value propositions"
+      ]
+    },
+    {
+      "id": "RISK-006",
+      "title": "Economic Recession Impact",
+      "category": "financial",
+      "severity": "High",
+      "probability": 0.4,
+      "impact_score": 8,
+      "description": "Economic downturn affecting customer spending, business lending, and overall demand for financial services. Increased credit defaults and reduced transaction volumes.",
+      "economic_indicators": [
+        "Rising interest rates",
+        "Inflation above target levels",
+        "Unemployment rate increases",
+        "GDP contraction signals"
+      ],
+      "business_impact": [
+        "Reduced transaction volumes",
+        "Increased customer churn",
+        "Higher default rates",
+        "Difficulty in fundraising"
+      ],
+      "financial_impact": {
+        "revenue_decline": "20-40%",
+        "bad_debt_provisions": "$500K-2M",
+        "operational_cost_pressure": "$300K-800K"
+      },
+      "mitigation_strategies": [
+        "Diversify customer segments",
+        "Strengthen cash reserves",
+        "Flexible cost structure implementation",
+        "Counter-cyclical product development"
+      ]
+    },
+    {
+      "id": "RISK-007",
+      "title": "Technology Infrastructure Obsolescence",
+      "category": "operational",
+      "severity": "Medium",
+      "probability": 0.3,
+      "impact_score": 6,
+      "description": "Legacy systems becoming outdated and incompatible with modern security standards and customer expectations. Technical debt accumulation affecting scalability.",
+      "technical_challenges": [
+        "Legacy payment processing systems",
+        "Monolithic architecture limitations",
+        "Outdated security protocols",
+        "Database performance bottlenecks"
+      ],
+      "business_impact": [
+        "Reduced system performance",
+        "Security vulnerabilities",
+        "Integration difficulties",
+        "Higher maintenance costs"
+      ],
+      "financial_impact": {
+        "modernization_costs": "$1-3M",
+        "performance_losses": "$200K-600K",
+        "security_upgrades": "$300K-800K"
+      },
+      "mitigation_strategies": [
+        "Implement microservices architecture",
+        "Regular technology stack reviews",
+        "Incremental modernization approach",
+        "Cloud-native development practices"
+      ]
+    },
+    {
+      "id": "RISK-008",
+      "title": "Reputational Damage from Service Failures",
+      "category": "reputational",
+      "severity": "High",
+      "probability": 0.25,
+      "impact_score": 7,
+      "description": "Public relations crisis resulting from system outages, security incidents, or customer service failures amplified through social media and financial press coverage.",
+      "reputation_triggers": [
+        "Extended service outages",
+        "Customer data incidents",
+        "Regulatory enforcement actions",
+        "Negative media coverage"
+      ],
+      "business_impact": [
+        "Customer trust erosion",
+        "Difficulty acquiring new customers",
+        "Partner relationship strain",
+        "Employee morale issues"
+      ],
+      "financial_impact": {
+        "customer_churn": "$1-4M annually",
+        "acquisition_cost_increase": "50-200%",
+        "crisis_management": "$100K-500K"
+      },
+      "mitigation_strategies": [
+        "Proactive communication strategies",
+        "Crisis management protocols",
+        "Customer service excellence programs",
+        "Stakeholder engagement plans"
+      ]
+    }
+  ],
+  "risk_metrics": {
+    "overall_risk_score": 6.4,
+    "category_distribution": {
+      "cybersecurity": 1,
+      "regulatory": 1,
+      "operational": 3,
+      "strategic": 1,
+      "financial": 1,
+      "reputational": 1
+    },
+    "severity_distribution": {
+      "High": 4,
+      "Medium": 4,
+      "Low": 0
+    },
+    "total_potential_impact": "$15-45M",
+    "recommended_risk_budget": "$2-4M annually"
+  },
+  "risk_relationships": [
+    {
+      "primary_risk": "RISK-001",
+      "related_risks": ["RISK-008", "RISK-002"],
+      "relationship_type": "cascade_effect"
+    },
+    {
+      "primary_risk": "RISK-006",
+      "related_risks": ["RISK-005", "RISK-003"],
+      "relationship_type": "amplification"
+    },
+    {
+      "primary_risk": "RISK-007",
+      "related_risks": ["RISK-001", "RISK-004"],
+      "relationship_type": "vulnerability_increase"
+    }
+  ]
+}

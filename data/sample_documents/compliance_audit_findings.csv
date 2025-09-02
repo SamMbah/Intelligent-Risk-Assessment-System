@@ -1,0 +1,21 @@
+Finding_ID,Risk_Category,Severity,Department,Description,Compliance_Standard,Status,Due_Date,Financial_Impact,Remediation_Cost
+COMP-001,Regulatory,High,Data Protection,Insufficient data retention documentation for customer records,GDPR Article 30,Open,2025-01-15,$500000,$25000
+COMP-002,Cybersecurity,Critical,IT Security,Missing encryption for customer financial data in transit,PCI DSS 4.0,In Progress,2024-12-30,$2000000,$150000
+COMP-003,Operational,Medium,HR,Inadequate background check procedures for financial access roles,FCA SYSC,Open,2025-02-28,$100000,$15000
+COMP-004,Regulatory,High,Product,API rate limiting not compliant with new open banking standards,PSD2 RTS,Open,2025-01-30,$300000,$80000
+COMP-005,Financial,Medium,Finance,Customer due diligence gaps for high-value transactions,AML Regulations,In Progress,2025-01-20,$750000,$45000
+COMP-006,Cybersecurity,High,IT Security,Outdated vulnerability scanning procedures,ISO 27001,Open,2024-12-20,$400000,$35000
+COMP-007,Operational,Low,Operations,Incomplete business continuity testing documentation,SOX Controls,Closed,2024-11-30,$50000,$10000
+COMP-008,Regulatory,Critical,Legal,Cross-border data transfer agreements missing for Singapore office,GDPR Article 46,Open,2025-01-10,$1500000,$200000
+COMP-009,Financial,Medium,Risk Management,Credit risk models not updated for current economic conditions,Basel III,In Progress,2025-02-15,$600000,$120000
+COMP-010,Cybersecurity,High,IT Security,Multi-factor authentication not enforced for admin accounts,NIST Framework,Open,2024-12-25,$800000,$40000
+COMP-011,Operational,Medium,Customer Service,Customer complaint handling procedures not documented,FCA DISP,Open,2025-01-25,$200000,$20000
+COMP-012,Regulatory,High,Product,Algorithmic trading controls insufficient for new AI models,MiFID II,Open,2025-02-10,$900000,$250000
+COMP-013,Financial,Low,Treasury,Liquidity risk reporting frequency below regulatory requirements,CRD IV,Closed,2024-12-05,$75000,$8000
+COMP-014,Cybersecurity,Medium,IT Operations,Incident response team training not current,NIST Cybersecurity Framework,In Progress,2025-01-15,$300000,$25000
+COMP-015,Operational,High,Product,Third-party risk assessments overdue for critical vendors,Outsourcing Guidelines,Open,2025-01-05,$1200000,$100000
+COMP-016,Regulatory,Medium,Data Protection,Privacy impact assessments missing for new product features,GDPR Article 35,Open,2025-02-20,$400000,$30000
+COMP-017,Financial,High,Credit Risk,Stress testing scenarios not updated for current market conditions,CCAR Guidelines,In Progress,2025-01-30,$1100000,$180000
+COMP-018,Cybersecurity,Critical,Network Security,Segmentation controls inadequate between production and development,PCI DSS,Open,2024-12-28,$1800000,$300000
+COMP-019,Operational,Medium,Business Analysis,Change management procedures not documented for regulatory updates,Change Management Policy,Open,2025-02-05,$150000,$18000
+COMP-020,Regulatory,High,Compliance,Regulatory reporting automation testing insufficient,Regulatory Reporting Standards,Open,2025-01-20,$650000,$90000

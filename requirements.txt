@@ -1,0 +1,41 @@
+# IRAS - Intelligent Risk Assessment System
+# Core Dependencies for RAG-based Risk Analysis
+
+# Web Framework
+streamlit>=1.48.1
+
+# AI/ML Core
+openai>=1.99.9
+scikit-learn>=1.7.1
+
+# Data Processing
+pandas>=2.3.1
+numpy
+
+# Vector Database
+qdrant-client>=1.15.1
+
+# Knowledge Graph
+networkx
+
+# Natural Language Processing
+spacy>=3.8.7
+
+# Document Processing
+pypdf2>=3.0.1
+
+# Data Visualization
+plotly>=6.3.0
+streamlit-agraph>=0.0.45
+
+# Environment Management
+python-dotenv
+
+# Optional Dependencies (Enhanced Features)
+
+sentence-transformers
+torch
+
+# Additional utilities that may be helpful
+requests
+python-multipart
