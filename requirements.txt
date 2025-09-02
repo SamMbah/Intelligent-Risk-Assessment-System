@@ -1,44 +1,39 @@
-# IRAS - Intelligent Risk Assessment System
-# Core Dependencies for RAG-based Risk Analysis
-
 # Web Framework
-streamlit>=1.48.1
+streamlit==1.48.1
 
 # AI/ML Core
-openai>=1.99.9
-scikit-learn>=1.7.1
+openai==1.2.0
+scikit-learn==1.5.2
 
 # Data Processing
-pandas>=2.3.1
-numpy
+pandas==2.2.2
+numpy==1.26.4
 
 # Vector Database
-qdrant-client>=1.15.1
+qdrant-client==1.9.0
 
 # Knowledge Graph
-networkx
+networkx==3.2.1
 
 # Natural Language Processing
-spacy>=3.8.7
+spacy==3.7.5
+en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1.tar.gz
 
 # Document Processing
-pypdf2>=3.0.1
+pypdf2==3.0.1
 
 # Data Visualization
-plotly>=6.3.0
-streamlit-agraph>=0.0.45
+plotly==5.23.0
+streamlit-agraph==0.0.45
 
 # Environment Management
-python-dotenv
+python-dotenv==1.0.1
 
-# Optional Dependencies (Enhanced Features)
+# Embeddings and Deep Learning
+sentence-transformers==3.1.1
+torch==2.4.0
+transformers==4.44.0
 
-sentence-transformers
-torch
-
-# Additional utilities that may be helpful
-requests
-python-multipart
-
-spacy
-en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1.tar.gz
+# Additional utilities
+requests==2.32.3
+python-multipart==0.0.9
