@@ -3,11 +3,11 @@ streamlit==1.48.1
 
 # AI/ML Core
 openai==1.2.0
-scikit-learn==1.5.2
+scikit-learn==1.4.2   # stable wheel, no build needed
 
 # Data Processing
-pandas==2.2.2
-numpy==1.26.4
+pandas==2.2.1         # stable wheel on PyPI
+numpy==1.26.4         # matches pandas 2.2.1 wheels
 
 # Vector Database
 qdrant-client==1.9.0
@@ -28,16 +28,6 @@ streamlit-agraph==0.0.45
 # Environment Management
 python-dotenv==1.0.1
 
-# Embeddings and Deep Learning
-sentence-transformers==3.1.1
-transformers==4.44.0
-
-# Torch (CPU-only, stable for Streamlit Cloud)
-torch==2.4.0+cpu
-torchvision==0.19.0+cpu
-torchaudio==2.4.0+cpu
---extra-index-url https://download.pytorch.org/whl/cpu
-
-# Additional utilities
+# Utilities
 requests==2.32.3
 python-multipart==0.0.9
