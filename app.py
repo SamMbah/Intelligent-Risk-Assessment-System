@@ -14,22 +14,25 @@ from components.vector_store import VectorStore
 from components.llm_interface import LLMInterface
 from components.risk_analyzer import RiskAnalyzer
 from utils.helpers import load_sample_data, format_risk_score
-import os
 from dotenv import load_dotenv
 from openai import OpenAI
-
 import spacy
 import subprocess
+import sys
 
 def load_spacy_model():
     try:
         return spacy.load("en_core_web_sm")
     except OSError:
-        # Fallback install if model not found
-        subprocess.run(["python", "-m", "spacy", "download", "en_core_web_sm"])
+        # Download wheel from GitHub if missing
+        subprocess.run([
+            sys.executable, "-m", "pip", "install",
+            "https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl"
+        ])
         return spacy.load("en_core_web_sm")
 
 nlp = load_spacy_model()
+
 
 
 
