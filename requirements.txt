@@ -1,33 +1,14 @@
-# Web Framework
 streamlit==1.32.2
-
-# AI/ML Core
 openai==1.2.0
 scikit-learn==1.3.2
-
-# Data Processing
 pandas==2.1.4
 numpy==1.26.4
-
-# Vector Database
 qdrant-client==1.9.0
-
-# Knowledge Graph
 networkx==3.2.1
-
-# Natural Language Processing (English model handled via postInstall.sh)
 spacy==3.7.5
-
-# Document Processing
 pypdf2==3.0.1
-
-# Data Visualization
 plotly==5.18.0
 streamlit-agraph==0.0.45
-
-# Environment Management
 python-dotenv==1.0.1
-
-# Utilities
 requests==2.31.0
 python-multipart==0.0.9
