@@ -19,7 +19,6 @@ networkx==3.2.1
 
 # Natural Language Processing
 spacy==3.7.5
-en-core-web-sm==3.7.1
 
 # Document Processing
 pypdf2==3.0.1
