@@ -19,9 +19,18 @@ from dotenv import load_dotenv
 from openai import OpenAI
 
 import spacy
+import subprocess
 
-# Assume model is installed during build (via postInstall.sh)
-nlp = spacy.load("en_core_web_sm")
+def load_spacy_model():
+    try:
+        return spacy.load("en_core_web_sm")
+    except OSError:
+        # Fallback install if model not found
+        subprocess.run(["python", "-m", "spacy", "download", "en_core_web_sm"])
+        return spacy.load("en_core_web_sm")
+
+nlp = load_spacy_model()
+
 
 
 load_dotenv()  # load values from .env
