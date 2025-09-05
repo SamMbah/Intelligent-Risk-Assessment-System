@@ -480,6 +480,5 @@ elif page == "Risk Dashboard":
 st.markdown("---")
 st.markdown(
     "**IRAS** - Intelligent Risk Assessment System | "
-    "Built with Streamlit, OpenAI, and Knowledge Graphs | "
-    "rradar Ltd & University of Leicester"
+    "Built with Streamlit, OpenAI, and Knowledge Graphs"
 )
