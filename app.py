@@ -18,6 +18,9 @@ from dotenv import load_dotenv
 from openai import OpenAI
 import spacy
 
+os.environ["STREAMLIT_WATCHDOG"] = "false"
+
+
 def load_spacy_model():
     try:
         return spacy.load("en_core_web_sm")
